@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<title>Pizza Prophet ANSWER</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Pizza King</h1>
+		</header>
+
+		<main>
+			<form action="">
+				<fieldset class="choices">
+					<legend>What size pizza are you looking for?</legend>
+					<label for="pie">pie</label>
+					<input type="radio" id="pie" value="pie" name="size">
+			
+					<label for="slice">slice</label>
+					<input type="radio" id="slice" value="slice" name="size">
+				</fieldset>
+			
+				<fieldset class="choices">
+					<legend>How much are you looking to spend?</legend>
+					<label for="$">a little</label>
+					<input type="radio" name="price" id="$" value="$">
+			
+					<label for="$$">a little more</label>
+					<input type="radio" name="price" id="$$" value="$$">
+				</fieldset>
+			
+				<input type="submit" value="the king speaks">
+			</form>
+
+			<section class="results"></section>
+		</main>
+	</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
